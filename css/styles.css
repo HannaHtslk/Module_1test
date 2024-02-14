@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: "Montserrat", sans-serif;
     color: #111;
@@ -10,8 +11,38 @@ a {
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+img {
+    display: block;
+}
+.container {
+    width: 1168px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
+/* HEADER */
+
+.page-header {
+    padding: 24px 0;
+
+}
+
+.header-cont {
+    display: flex;
+    align-items: center;
+
+}
+.page-nav {
+    display: flex;
+
+}
 .logo-simply {
 color: #111;
     font-family: Montserrat;
@@ -20,24 +51,40 @@ color: #111;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: -0.54px;
+    display: inline-flex;
 
 }
 
 .logo {
     color: #111;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 20px;
-        letter-spacing: -0.54px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.54px;
+    display: inline-flex;
 }
 
+.nav-list {
+    display: flex;
+    gap: 24px;
+    margin-left: 365px;
+}
 .nav-item a {
     color: #111;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 16px;
-        letter-spacing: -0.28px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.28px;
 }
+
+.social-list {
+    display: flex;
+    gap: 14px;
+    margin-left: 90px;
+}
+
+
+/* MAIN PAGE */
 
 .main-page {
     background-color: 
@@ -90,7 +137,7 @@ color: #111;
     background-color: #FFFFFF;
 }
 
-.taste-title {
+.section-title {
 
         text-align: center;
         font-size: 24px;
@@ -100,7 +147,7 @@ color: #111;
         text-transform: uppercase;
 }
 
-.taste-feature {
+.feature {
     color: #FD9222;
         font-size: 24px;
         font-weight: 600;
@@ -124,3 +171,32 @@ color: #111;
         line-height: 18px;
         letter-spacing: -0.28px;
 }
+
+/* How it's made Section */
+.process-section {
+
+}
+
+
+
+.instruction-title {
+
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+
+}
+
+.instruction-list {
+  list-style-type: disc;
+
+}
+
+.instruction-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+
+/* Product Section */
