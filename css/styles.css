@@ -89,14 +89,22 @@ color: #111;
 .main-page {
     background-color: 
     rgba(17, 17, 17, 0.70);
+    border-radius: 30px;
+    width: 1136px;
+    height: 600px;
+    padding: 381px 40px 40px 40px;
+    margin: 0 auto;
 }
 
 .main-title {
     color: #FFF;
-        font-size: 28px;
-        font-weight: 500;
-        line-height: 34px;
-        letter-spacing: -0.84px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.84px;
+    width: 484px;
+    height: 102px;
+    margin-bottom: 32px;
 }
 
 .main-page button {
@@ -104,14 +112,34 @@ color: #111;
         font-size: 14px;
         font-weight: 600;
         line-height: normal;
+        display: inline-block;
+    cursor: pointer;
 }
+.buy-button {
+padding: 14px 40px;
+border-radius: 100px;
+background:  #FD9222;
+border: none;
+min-width: 144px;
 
+}
+.how-button {
+    min-width: 183px;
+    padding: 14px 40px; 
+    border-radius: 100px;
+    border: 1px solid #FFF;
+background: none;
+margin-left: 14px;
+}
 .scroll-down {
     color: #FFF;
         font-size: 14px;
         font-weight: 500;
         line-height: 18px;
         letter-spacing: -0.42px;
+        display: inline-flex;
+        margin-left: 585px;
+
 }
 
 .benefits-section {
