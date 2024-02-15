@@ -155,14 +155,26 @@ cursor: pointer;
     gap: 14px;
     cursor: pointer;
 }
-.benefits-section {
+/* #endregion MAIN PAGE */
+
+/* #region Benefits */
+.benefits-section .container {
     background: #1E1823;
+    margin-top: 80px;
 }
+.benefits-list {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0; 
+    gap: 88px;
+}
+
 .benefit-title {
     color:  #FFF;
         font-size: 18px;
         font-weight: 600;
         line-height: normal;
+        margin-bottom: 18px;
 }
 
 .benefit-description {
@@ -171,13 +183,17 @@ cursor: pointer;
         font-weight: 400;
         line-height: 18px;
         letter-spacing: -0.28px;
+        max-width: 308px;
+        height: auto;
 }
-/* #endregion MAIN PAGE */
+/* #endregion Benefits */
 
 /* #region Taste Section  */
 
-.taste-section {
-    background-color: #FFFFFF;
+.taste-section .container {
+
+    margin-top: 120px;
+
 }
 
 .section-title {
@@ -188,6 +204,10 @@ cursor: pointer;
         line-height: 28px;
         letter-spacing: -0.72px;
         text-transform: uppercase;
+        max-width: 412px;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 50px;
 }
 
 .feature {
@@ -198,42 +218,65 @@ cursor: pointer;
         letter-spacing: -0.72px;
         text-transform: uppercase;
 }
-.product-w {
+.taste-list {
+    display: flex;
+    flex-wrap: wrap;
+            gap: 32px;
+            margin-bottom: 120px;
+            background-color: #FFF;
+}
+.taste-item {
+        width: calc((100% - 96px) / 4);
+        height: 270px;
+        padding: 28px 23px 82px 23px;
+        border-radius: 15px;
+        background: #FD9222;
+        color: #FFF;
+}
+
+.taste-item:nth-child(2n + 2) {
+    background: transparent;
+    border: 1px solid #FD9222;
+    color: #111;
+}
+
+.taste-item:nth-child(4n + 3) {
+    background: #1E1823;
     color: #FFF;
+}
+
+
+.product-n {
+    margin-top: 36px;
         font-size: 14px;
+        font-style: normal;
         font-weight: 600;
         line-height: 18px;
         letter-spacing: -0.28px;
         text-transform: uppercase;
 }
 
-.product-b {
-    color: #111;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 18px;
-        letter-spacing: -0.28px;
-}
+
 /* #endregion Taste Section  */
 
 /* #region How it's made Section */
-.process-section {
-
-}
-
 
 
 .instruction-title {
-
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 24px;
-
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+width: 350px;
+height: auto;
+margin: 28px; 
 }
 
 .instruction-list {
   list-style-type: disc;
-
+  width: 452px;
+  height: 260px;
+  
+  
 }
 
 .instruction-item {
@@ -241,7 +284,11 @@ cursor: pointer;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: -0.28px;
+
 }
+
+
+
 /* #endregion How it's made Section */
 
 /* #region Product Section */
