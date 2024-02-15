@@ -28,6 +28,9 @@ img {
     margin: 0 auto;
     padding: 0 16px;
 }
+.section {
+    padding: 60px 0;
+}
 /* #endregion General Styles */
 
 /* #region HEADER */
@@ -97,7 +100,9 @@ color: #111;
 
 
 /* #region MAIN PAGE */
-
+.main-page {
+    padding-bottom: 80px;
+}
 .main-page .container {
     width: 1136px;
     height: 600px;
@@ -158,14 +163,14 @@ cursor: pointer;
 /* #endregion MAIN PAGE */
 
 /* #region Benefits */
-.benefits-section .container {
+.benefits-section {
+    padding: 50px 0;
     background: #1E1823;
-    margin-top: 80px;
 }
+
 .benefits-list {
     display: flex;
     justify-content: center;
-    padding: 50px 0; 
     gap: 88px;
 }
 
@@ -190,10 +195,9 @@ cursor: pointer;
 
 /* #region Taste Section  */
 
-.taste-section .container {
-
-    margin-top: 120px;
-
+.taste-section {
+    padding-top: 120px;
+    padding-bottom: 60px;
 }
 
 .section-title {
@@ -222,7 +226,7 @@ cursor: pointer;
     display: flex;
     flex-wrap: wrap;
             gap: 32px;
-            margin-bottom: 120px;
+      
             background-color: #FFF;
 }
 .taste-item {
@@ -300,7 +304,9 @@ margin: 28px;
 
 /* #region Review */
 /* #endregion Review */
-
+.review-section {
+    padding-bottom: 120px;
+}
 
 /* #region FOOTER */
 /* #endregion FOOTER */
