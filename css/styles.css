@@ -1,4 +1,4 @@
-/* General Styles */
+/* #region General Styles */
 body {
     font-family: "Montserrat", sans-serif;
     color: #111;
@@ -20,19 +20,18 @@ h1, h2, h3, h4, h5, h6, p {
 }
 img {
     display: block;
+    height: auto;
+    max-width: 100%;
 }
 .container {
     width: 1168px;
     margin: 0 auto;
     padding: 0 16px;
 }
+/* #endregion General Styles */
 
-/* HEADER */
+/* #region HEADER */
 
-.page-header {
-    padding: 24px 0;
-
-}
 
 .header-cont {
     display: flex;
@@ -62,6 +61,8 @@ color: #111;
     line-height: 20px;
     letter-spacing: -0.54px;
     display: inline-flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .nav-list {
@@ -75,6 +76,15 @@ color: #111;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: -0.28px;
+    padding: 32px 0;
+    display: block;
+}
+
+.nav-item a:hover {
+    color: #FD9222;
+}
+.nav-item a:focus {
+    color: #FD9222;
 }
 
 .social-list {
@@ -83,19 +93,19 @@ color: #111;
     margin-left: 90px;
 }
 
+/* #endregion HEADER */
 
-/* MAIN PAGE */
 
-.main-page {
-    background-color: 
-    rgba(17, 17, 17, 0.70);
-    border-radius: 30px;
+/* #region MAIN PAGE */
+
+.main-page .container {
     width: 1136px;
     height: 600px;
     padding: 381px 40px 40px 40px;
     margin: 0 auto;
+    background-color:rgba(17, 17, 17, 0.70);
+    border-radius: 30px;
 }
-
 .main-title {
     color: #FFF;
     font-size: 28px;
@@ -106,42 +116,45 @@ color: #111;
     height: 102px;
     margin-bottom: 32px;
 }
-
-.main-page button {
-    color: #FFF;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: normal;
-        display: inline-block;
-    cursor: pointer;
+.buttons {
+    display: flex;
+    margin-right: auto;
 }
+
 .buy-button {
+color: #FFF;
 padding: 14px 40px;
 border-radius: 100px;
 background:  #FD9222;
 border: none;
 min-width: 144px;
+cursor: pointer;
 
 }
 .how-button {
+    color: #FFF;
     min-width: 183px;
     padding: 14px 40px; 
     border-radius: 100px;
     border: 1px solid #FFF;
 background: none;
 margin-left: 14px;
+cursor: pointer;
+}
+.btn-wrapper {
+    display:flex;
 }
 .scroll-down {
     color: #FFF;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 18px;
-        letter-spacing: -0.42px;
-        display: inline-flex;
-        margin-left: 585px;
-
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.42px;
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
 }
-
 .benefits-section {
     background: #1E1823;
 }
@@ -159,7 +172,9 @@ margin-left: 14px;
         line-height: 18px;
         letter-spacing: -0.28px;
 }
-/* Taste Section */
+/* #endregion MAIN PAGE */
+
+/* #region Taste Section  */
 
 .taste-section {
     background-color: #FFFFFF;
@@ -199,8 +214,9 @@ margin-left: 14px;
         line-height: 18px;
         letter-spacing: -0.28px;
 }
+/* #endregion Taste Section  */
 
-/* How it's made Section */
+/* #region How it's made Section */
 .process-section {
 
 }
@@ -226,5 +242,18 @@ margin-left: 14px;
     line-height: 18px;
     letter-spacing: -0.28px;
 }
+/* #endregion How it's made Section */
 
-/* Product Section */
+/* #region Product Section */
+
+/* #endregion Product Section */
+
+/* #region Top Sellers */
+/* #endregion Top Sellers */
+
+/* #region Review */
+/* #endregion Review */
+
+
+/* #region FOOTER */
+/* #endregion FOOTER */
